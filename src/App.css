@@ -1,0 +1,23 @@
+body {
+          font-family: 'Poppins', 'Montserrat', 'Roboto', sans-serif;
+        }
+        
+.glow-effect {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.glow-hover:hover {
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.neon-border {
+    border: 1px solid rgba(0, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+.neon-border:hover {
+    border-color: rgba(0, 255, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
